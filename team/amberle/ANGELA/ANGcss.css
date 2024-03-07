@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(115, 97, 133);
+    background-image: url(./img/purpleCLOUDS.png);
+}
+
+.header{
+    text-align: center;
+    padding: 90px;
+    font-size: 80px;
+}
+
+.navbar a{
+    float:left;
+    background-image: url(./img/purpleCLOUDS.png);
+    display: block;
+    padding: 10px 50px;
+    text-align: center;
+    opacity: .65;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    opacity: 1;
+}
