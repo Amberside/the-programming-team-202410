@@ -50,7 +50,7 @@ var students =
     },
 
     {
-        "path": "jay",
+        "path": "Jay",
         "lastName": "Tang",
         "firstName": "Jay"
     }
