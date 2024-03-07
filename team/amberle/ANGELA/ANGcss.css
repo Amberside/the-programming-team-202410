@@ -4,21 +4,28 @@ body{
 }
 
 .header{
+    margin-top: 15%;
     text-align: center;
-    padding: 90px;
+    padding: 50px;
     font-size: 80px;
 }
 
 .navbar a{
     float:left;
+    width: 50%;
     background-image: url(./img/purpleCLOUDS.png);
     display: block;
-    padding: 10px 50px;
-    text-align: center;
     opacity: .65;
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar a:hover{
-    opacity: 1;
+    opacity: 1.5;
+    color: rgba(74, 58, 88, 0.801);
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
 }
