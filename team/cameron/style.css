@@ -5,8 +5,7 @@ body {
 }
 
 .container {
-  max-width: 400px;
-  height:200px;
+  max-width: 450px;
   margin: auto;
   padding: 20px;
   position:relative;
@@ -16,6 +15,10 @@ body {
 
 h1 {
   font-weight:900;
+}
+
+h4 {
+  font-weight:bold;
 }
 
 p {
