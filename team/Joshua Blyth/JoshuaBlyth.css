@@ -1,0 +1,110 @@
+
+
+
+.image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .image-grid img {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+  
+  }
+
+  body{
+    text-align: center;
+
+  }
+
+  h1{
+    font-size: 250px;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke:  1px black;
+  }
+  
+  h2{
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: -15px;
+    
+}
+
+  #container{
+    background-image: url("img/Background1.gif") ;
+    margin: auto;
+    padding: 20px;
+    background-size: cover;
+  background-position: center center;
+ 
+  
+
+  }
+
+.HobbiesSection{
+    background-color:bisque;
+    padding: 30px;
+
+    
+}
+.coloursSection{
+    background-image: url("img/GamesBack.gif");
+    padding:20px;
+    margin: auto;
+    padding: 20px;
+    background-size: cover;
+  background-position: center center;
+  -webkit-text-stroke: 1px black;
+  color: white;
+}
+
+#imageSection{
+    background-color:bisque;
+    padding: 10px;
+
+    
+}
+
+
+
+
+label{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+  ul{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#lime{
+    color: lime;
+}
+ 
+#blue{
+    color: blue;
+}
+#green{
+    color: green;
+}
+#aqua{
+    color: aqua;
+}
+  
+
+
+  
