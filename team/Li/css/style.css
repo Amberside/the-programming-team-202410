@@ -28,11 +28,13 @@ div{
 }
 #intro {
     text-align: left;
-    color:blue
+    text-decoration-line: underline;
+    text-shadow: 5cap;
+    color:blue;
 }
 
-a:link{
-    text-align: right;
+.lix{
+    float:right;
     
 }
 
