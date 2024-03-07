@@ -1,0 +1,22 @@
+body{
+  font-size: medium;
+  background-color: aquamarine;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 3rem;
+  color: goldenrod;
+}
+
+p {
+  font-size:larger;
+  color: blueviolet;
+  margin-bottom: 40px;
+}
+
+
+
+a:hover {
+  background-color: blue;
+}
