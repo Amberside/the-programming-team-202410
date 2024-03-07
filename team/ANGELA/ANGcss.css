@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(115, 97, 133);
+    background-image: url(./img/purpleCLOUDS.png);
+}
+
+.header{
+    margin-top: auto;
+    text-align: center;
+    padding: 30px;
+    font-size: 80px;
+}
+
+.navbar a{
+    float:left;
+    width: 50%;
+    background-image: url(./img/purpleCLOUDS.png);
+    display: block;
+    opacity: .65;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    opacity: 1.5;
+    color: rgba(74, 58, 88, 0.801);
+}
+
+.p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.butterfly{
+   background-position: center;
+   background-repeat: repeat-y;
+}
