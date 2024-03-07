@@ -1,40 +1,29 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: yellowgreen;
-    margin: auto;
+    background-color: #35374b;
+    color: #ffffff;
+    
+
 }
 
+.container{
+    text-align: center;
+
+}
 h1{
     margin-top: 100px;
-    color:maroon;
-    transform: rotate(-37deg);
-    position: absolute;
 }
 
 a {
-    padding: 10px;
     text-decoration: none;
-    background-color: aquamarine;
-    color:yellow;
-    width: 100px;
-    height: auto;
-    position: absolute;
-    text-align: center;
-    margin-top: 600px;
-
+    padding: 10px;
+    background-color: #50727b;
+    color: #ffffff;
+    transition: transform 20s;
 }
 
 a:hover{
-  background-color: cadetblue;
-  color:peachpuff;
-  transform: scale(0.3);
-}
-
-p {
-    color:violet;
-    transform: rotate(28deg);
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 250px;
-
+  background-color: #344955;
+  transform: scale(0.1);
+  position: absolute;
 }
