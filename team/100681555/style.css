@@ -1,0 +1,58 @@
+/* Add background gradient */
+body {
+  background: linear-gradient(to right, #f6d365, #fda085);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style headings */
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Add box shadows */
+.container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style buttons */
+a {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+}
+
+/* Add animation */
+.container {
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
