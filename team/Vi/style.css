@@ -1,0 +1,44 @@
+/* color pallete 
+    light sakura #f3b2c4
+    darker gradient sakura #a33f56
+    medium dark sakura #d6718b
+    white #ffffff
+    green #b0da7d
+    darker green #869a4f
+    border red #983646
+    dark color #7e646b
+*/
+.shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    font-family: "Shadows Into Light", cursive;
+    background: #f3b2c4;
+    color:#869a4f
+}
+header {
+    text-align: center;
+}
+.box1{
+    display: inline;
+}
+.tenor-gif-embed{
+    width: 400px;
+    display: inline-block;
+    float: left;
+}
+.description {
+    float: left;
+    display: inline-block;
+    font-size: 22px;
+    margin: 20px;
+    border: #983646 solid 3px;
+    border-radius: 10px;
+    width: 500px;
+    height: fit-content;
+    padding-left: 12px;
+    background-color: #ffffff;
+}
