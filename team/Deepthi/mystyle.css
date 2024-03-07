@@ -2,6 +2,16 @@ body{
   font-size: medium;
   background-color: aquamarine;
 }
+img{
+  opacity: 0.8;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
 .container {
   max-width: 800px;
   margin: auto;
