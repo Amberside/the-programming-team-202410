@@ -1,0 +1,42 @@
+
+body {
+  font-family: Verdana, Helvetica, sans-serif, Arial, Tahoma;
+  background-color:lightskyblue;
+}
+
+.container {
+  max-width: 400px;
+  height:200px;
+  margin: auto;
+  padding: 20px;
+  position:relative;
+  color:rgb(100, 40, 40);
+  border:5px solid rgba(20, 147, 231, 0.445);
+}
+
+h1 {
+  font-weight:900;
+}
+
+p {
+  font-size: 0.9rem;
+  color:rgb(40, 40, 40);
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+a {
+  color:lightskyblue;
+  margin: 10px;
+  padding: 10px;
+  background-color:rgb(100, 40, 40);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color:rgb(40, 40, 40);
+}
+
+a:visited {
+  color:lightskyblue;
+}
