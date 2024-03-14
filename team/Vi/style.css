@@ -23,15 +23,13 @@ header {
     text-align: center;
 }
 .box1{
-    display: inline;
+    display: flex;
 }
 .tenor-gif-embed{
     width: 400px;
     display: inline-block;
-    float: left;
 }
 .description {
-    float: left;
     display: inline-block;
     font-size: 22px;
     margin: 20px;
