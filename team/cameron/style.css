@@ -1,31 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 body {
-  font-family: Verdana, Helvetica, sans-serif, Arial, Tahoma;
-  background-color:lightskyblue;
+  font-family: "Chivo", Verdana, Geneva, Tahoma, sans-serif;
+  background-color:aliceblue;
 }
 
 .container {
   max-width: 450px;
-  min-height: 460px;
-  margin: auto;
+  min-height: 450px;
+  background:lightskyblue;
+  color:navy;
   padding: 20px;
-  color:rgb(100, 40, 40);
-  border:5px solid rgba(20, 147, 231, 0.445);
-  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+  border:5px solid #6495ed;
+  margin: auto;
+  box-shadow:navy 0px 3px 8px;
   position:relative;
 }
 
 h1 {
-  font-weight:900;
+  font-weight:800;
 }
 
 h4 {
-  font-weight:bold;
+  
 }
 
 p {
   font-size: 0.9rem;
-  color:rgb(40, 40, 40);
+  color:navy;
   margin-left: 10px;
   margin-bottom: 30px;
 }
@@ -35,45 +44,48 @@ form {
 }
 
 label {
-  color:rgb(40, 40, 40);
+  color:navy;
 }
 
-input {
+form input {
+  color:navy;
   width:60%;
-  left:50px;
+  display:inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-/*
-#fname, #lname {
-  padding-left:20px;
+form div .fname,
+form div .lname, 
+form div .address,
+form div .email, 
+form div .bank, 
+form div .notsus {
+  padding-left: 50px;
 }
 
-#address {
-  padding-left:20px;
+form .notsus input{
+  width: 20px;
+  display:inline;
 }
 
-#email {
-  padding-left:60px;
-}
-
-#bank {
-
-}
-*/
-
-a {
+body .container form a {
   color:lightskyblue;
-  margin: 10px;
-  padding: 10px;
-  background-color:rgb(100, 40, 40);
+  text-align:center;
   text-decoration: none;
+  background:navy;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
   position:absolute;
 }
 
-a:hover {
-  background-color:rgb(40, 40, 40);
+body .container form a:visited {
+  color:lightskyblue;
 }
 
-a:visited {
-  color:lightskyblue;
+body .container form a:hover,
+body .container form a:focus{
+  background-color: #6495ed;
+  color:navy;
 }
