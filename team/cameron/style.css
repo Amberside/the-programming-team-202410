@@ -28,9 +28,11 @@ h1 {
   font-weight:800;
 }
 
+/*
 h4 {
   
 }
+*/
 
 p {
   font-size: 0.9rem;
@@ -62,6 +64,7 @@ form div .email,
 form div .bank, 
 form div .notsus {
   padding-left: 50px;
+  float:center;
 }
 
 form .notsus input{
