@@ -6,6 +6,7 @@ body{
     background-color: rgba(180, 134, 180, 0.521);
     background-image: url(./img/Butterfly.gif);
     background-repeat: repeat;
+    
 }
 
 ul{
@@ -14,7 +15,7 @@ ul{
     padding: 0;
     width: 100%;
     background-color: rgb(41, 37, 37);
-    max-height: max-content;
+    height: auto;
 }
 
 li{
@@ -37,4 +38,14 @@ li a:hover{
 .active{
     background-color: black;
     color: rgb(141, 82, 168);
+}
+
+section{
+    display: block;
+    padding: 100px;
+    background-color: aqua;
+    opacity: 10%;
+    width: 50%;
+    text-align: center
+    
 }
