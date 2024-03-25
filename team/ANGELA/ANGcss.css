@@ -4,18 +4,20 @@
 }
 body{
     background-color: rgba(180, 134, 180, 0.521);
-    background-image: url(./img/Butterfly.gif);
-    background-repeat: repeat;
+   
     
 }
 
 ul{
+    background-image: url(./img/Butterfly.gif);
+    background-size: 15vw;
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: rgb(41, 37, 37);
-    height: auto;
+    max-height:50px;
 }
 
 li{
@@ -27,12 +29,13 @@ li a{
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
+    max-height: 50px;
 }
 
 li a:hover{
     opacity: 1.5;
     color: rgba(89, 18, 104, 0.801);
-    background-color:rgb(24, 24, 24)
+    background-color:rgb(24, 24, 24);
 }
 
 .active{
@@ -40,12 +43,31 @@ li a:hover{
     color: rgb(141, 82, 168);
 }
 
+.panda{
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    width: auto;
+    height: 50px;
+    padding-right: 15px;
+
+}
+
 section{
+    position: absolute;
+    top: 50%;
     display: block;
-    padding: 100px;
-    background-color: aqua;
-    opacity: 10%;
+    padding: 10px;
     width: 50%;
-    text-align: center
+    text-align: center;
+    transform: translate(0,-50%);
     
+}
+
+h1{
+    font-size: 5vw;
+}
+
+p{
+    padding-top: 8px;
 }
