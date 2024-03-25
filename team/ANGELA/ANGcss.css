@@ -4,20 +4,20 @@
 }
 body{
     background-color: rgba(180, 134, 180, 0.521);
-   
-    
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 ul{
-    background-image: url(./img/Butterfly.gif);
-    background-size: 15vw;
     position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: rgb(41, 37, 37);
-    max-height:50px;
+    max-height: 5vw;
+    border-radius: 0 0 15px 15px;
 }
 
 li{
@@ -30,6 +30,7 @@ li a{
     text-align: center;
     padding: 14px 16px;
     max-height: 50px;
+    font-size: 1vw;
 }
 
 li a:hover{
@@ -44,24 +45,28 @@ li a:hover{
 }
 
 .panda{
-    display: inline-flex;
+    display:flex;
     justify-content: flex-end;
     float: right;
     width: auto;
-    height: 50px;
+    height: 40px;
     padding-right: 15px;
 
 }
 
 section{
     position: absolute;
+    margin-left: 25px;
+    border-radius: 9px;
     top: 50%;
     display: block;
     padding: 10px;
     width: 50%;
     text-align: center;
     transform: translate(0,-50%);
-    
+    background-color: rgba(221, 160, 221, 0.199);
+    background-image: url(./img/Butterfly.gif);
+    box-shadow: 1px 1px 5px #555 inset;
 }
 
 h1{
@@ -70,4 +75,10 @@ h1{
 
 p{
     padding-top: 8px;
+}
+
+.gallery{
+    display: block;
+    
+
 }
