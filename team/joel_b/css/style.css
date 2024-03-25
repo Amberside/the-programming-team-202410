@@ -1,0 +1,109 @@
+*:not(.default_cursor:hover) {
+    cursor: url(../images/cursor/1.png) 0 17, auto;
+    animation-name: cursor_anim;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cursor_anim {
+    0%{
+        cursor: url(../images/cursor/1.png) 0 17, auto;
+    }
+    25%{
+        cursor: url(../images/cursor/2.png) 0 17, auto;
+    }
+    50%{
+        cursor: url(../images/cursor/3.png) 0 17, auto;
+    }
+    75%{
+        cursor: url(../images/cursor/4.png) 0 17, auto;
+    }
+}
+
+body{
+    background-color: #051F3A;
+    background-image: url(../images/star_trails.jpg);
+    background-repeat: no-repeat;
+    background-size: stretch;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 360;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 7px 3px 21px rgb(64, 64, 64);
+}
+
+.container{
+    color: rgb(32, 44, 64);
+    background-color: white;
+    width: 720px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+.topsection{
+    padding: 0 20px 0 0;
+}
+
+.midsection{
+    margin: 50px;
+}
+
+.charlie{
+    width: 480px;
+    border-radius: 7px;
+}
+
+.charlie:hover + .bowtie{
+    visibility: visible;
+}
+
+.bowtie{
+    position: absolute;
+    visibility: hidden;
+    width: 160px;
+    top: 59%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-16deg);
+    transform-origin: 50% 50%;
+}
+
+.bowtie:hover{
+    visibility: visible;
+    animation-name: bowtie_spin;
+    animation-duration: 1s;
+}
+
+@keyframes bowtie_spin {
+    0%{
+        transform: rotate(-16deg);
+    }
+    100%{
+        transform: rotate(1064deg);
+    }
+}
+
+.lowsection{
+    padding: 0 0 20px 0;
+}
+
+.home_link{
+    color: rgb(233, 57, 13);
+    text-decoration: none;
+}
+
+.home_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
