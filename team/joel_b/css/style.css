@@ -22,13 +22,14 @@
 }
 
 body{
-    background-color: #051F3A;
+    background-color: rgb(5, 31, 58);
     background-image: url(../images/star_trails.jpg);
     background-repeat: no-repeat;
-    background-size: stretch;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 main{
@@ -40,7 +41,7 @@ main{
     text-shadow: 7px 3px 21px rgb(64, 64, 64);
 }
 
-.container{
+.main_container{
     color: rgb(32, 44, 64);
     background-color: white;
     width: 720px;
@@ -49,6 +50,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 7px;
+    text-align: center;
 }
 
 .topsection{
@@ -99,11 +101,42 @@ main{
 }
 
 .home_link{
-    color: rgb(233, 57, 13);
+    color: #d85e1b;
     text-decoration: none;
 }
 
 .home_link:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.left_container{
+    width: 400px;
+    height: 720px;
+    position: absolute;
+    max-width: 400px;
+    max-height: 720px;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.right_container{
+    width: 400px;
+    height: 720px;
+    position: absolute;
+    max-width: 400px;
+    max-height: 720px;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cool_gifs{
+    margin: auto;
+    height: 200px;
 }
