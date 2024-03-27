@@ -125,6 +125,11 @@ var students =
         "lastName": "Morgan-Graham",
         "firstName": "Perry"
     },
+    {
+        "path": "Benicio",
+        "lastName": "Caiafa",
+        "firstName": "Benicio"
+    },
     
    ];
 
