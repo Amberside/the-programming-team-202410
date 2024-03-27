@@ -58,7 +58,11 @@ var students =
         "lastName": "Muschialli",
         "firstName": "Cameron"
     },
-
+    {
+        "path": "Deepthi",
+        "lastName": "Kalidindi",
+        "firstName": "Deepthi"
+    },
 
     
    ];
