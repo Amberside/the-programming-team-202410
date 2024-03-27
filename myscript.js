@@ -86,8 +86,8 @@ var students =
     },
     {
         "path": "ANGELA",
-        "lastName": "Angela",
-        "firstName": "Bilo"
+        "lastName": "Bilo",
+        "firstName": "Angela"
     },
     {
         "path": "Jay",
