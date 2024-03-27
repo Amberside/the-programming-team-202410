@@ -93,6 +93,11 @@ var students =
         "path": "Jay",
         "lastName": "Tang",
         "firstName": "Jay"
+    },
+    {
+        "path": "JoshuaBlyth",
+        "lastName": "Blyth",
+        "firstName": "Joshua"
     }
 
    ];
