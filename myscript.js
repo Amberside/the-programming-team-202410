@@ -104,7 +104,11 @@ var students =
         "lastName": "Blyth",
         "firstName": "Isaac"
     },
-
+    {
+        "path": "Weili",
+        "lastName": "Weng",
+        "firstName": "Weili"
+    },
    ];
 
 const maxColor = 15;
