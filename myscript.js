@@ -120,6 +120,11 @@ var students =
         "lastName": "Verschut",
         "firstName": "Vi"
     },
+    {
+        "path": "perry",
+        "lastName": "Morgan-Graham",
+        "firstName": "Perry"
+    },
     
    ];
 
