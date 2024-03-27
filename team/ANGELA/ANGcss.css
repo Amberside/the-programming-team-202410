@@ -77,13 +77,18 @@ p{
     padding-top: 8px;
 }
 
-#container{
+.container{
+    position: relative;
     float: right;
-    height: 100px;
-    display: block;
-    background-color: black;
-    position: absolute;
+    height: auto;
+    
+}
+.photo{
+    margin-top: 85%;
+    margin-left: -25%;
+    right: 17%;
+    top: 0;
+    z-index: 1;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateY(-50%);
 }
