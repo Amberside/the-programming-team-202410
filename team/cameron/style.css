@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 450px;
-  min-height: 450px;
+  min-height: 300px;
   background:lightskyblue;
   color:navy;
   padding: 20px;
@@ -28,11 +28,9 @@ h1 {
   font-weight:800;
 }
 
-/*
-h4 {
-  
+h3 {
+  margin: 20px 0px 5px 0px;
 }
-*/
 
 p {
   font-size: 0.9rem;
@@ -41,17 +39,15 @@ p {
   margin-bottom: 30px;
 }
 
-form {
-  position:sticky;
-}
-
 label {
   color:navy;
+  width:45%;
+  float:left;
 }
 
 form input {
   color:navy;
-  width:60%;
+  width:50%;
   display:inline;
   margin-left: 10px;
   margin-right: 10px;
@@ -64,12 +60,12 @@ form div .email,
 form div .bank, 
 form div .notsus {
   padding-left: 50px;
-  float:center;
 }
 
 form .notsus input{
   width: 20px;
   display:inline;
+  position:relative;
 }
 
 body .container form a {
@@ -79,8 +75,9 @@ body .container form a {
   background:navy;
   width: 30%;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 30%;
   position:absolute;
+  float:center;
 }
 
 body .container form a:visited {
