@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Chivo", Verdana, Geneva, Tahoma, sans-serif;
+  background-color:aliceblue;
+}
+
+.container {
+  max-width: 450px;
+  min-height: 300px;
+  background:lightskyblue;
+  color:navy;
+  padding: 20px;
+  border:5px solid #6495ed;
+  margin: auto;
+  box-shadow:navy 0px 3px 8px;
+  position:relative;
+}
+
+h1 {
+  font-weight:800;
+}
+
+h3 {
+  margin: 20px 0px 5px 0px;
+}
+
+p {
+  font-size: 0.9rem;
+  color:navy;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+label {
+  color:navy;
+  width:45%;
+  float:left;
+}
+
+form input {
+  color:navy;
+  width:50%;
+  display:inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form div .fname,
+form div .lname, 
+form div .address,
+form div .email, 
+form div .bank, 
+form div .notsus {
+  padding-left: 50px;
+}
+
+form .notsus input{
+  width: 20px;
+  display:inline;
+  position:relative;
+}
+
+body .container form a {
+  color:lightskyblue;
+  text-align:center;
+  text-decoration: none;
+  background:navy;
+  width: 30%;
+  padding: 10px;
+  margin: 10px 30%;
+  position:absolute;
+  float:center;
+}
+
+body .container form a:visited {
+  color:lightskyblue;
+}
+
+body .container form a:hover,
+body .container form a:focus{
+  background-color: #6495ed;
+  color:navy;
+}
