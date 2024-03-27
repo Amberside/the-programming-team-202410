@@ -81,8 +81,8 @@ var students =
     },
     {
         "path": "joel_b",
-        "lastName": "Joel Jr",
-        "firstName": "Bilo"
+        "lastName": "Bilo",
+        "firstName": "Joel Jr"
     },
     
 
