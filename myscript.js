@@ -98,7 +98,12 @@ var students =
         "path": "JoshuaBlyth",
         "lastName": "Blyth",
         "firstName": "Joshua"
-    }
+    },
+    {
+        "path": "Isaac",
+        "lastName": "Blyth",
+        "firstName": "Isaac"
+    },
 
    ];
 
