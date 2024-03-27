@@ -49,11 +49,7 @@ var students =
         "firstName": "Amberle"
     },
 
-    {
-        "path": "Jay",
-        "lastName": "Tang",
-        "firstName": "Jay"
-    }
+
     
    ];
 
