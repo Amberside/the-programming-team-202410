@@ -79,6 +79,11 @@ var students =
         "lastName": "Zammit",
         "firstName": "Evelyn"
     },
+    {
+        "path": "joel_b",
+        "lastName": "Joel Jr",
+        "firstName": "Bilo"
+    },
     
 
    ];
