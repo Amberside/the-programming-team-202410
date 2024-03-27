@@ -1,36 +1,94 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
 body{
-    background-color: rgb(115, 97, 133);
+    background-color: rgba(180, 134, 180, 0.521);
     background-image: url(./img/purpleCLOUDS.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
-.header{
-    margin-top: auto;
-    text-align: center;
-    padding: 30px;
-    font-size: 80px;
+ul{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(41, 37, 37);
+    max-height: 5vw;
+    border-radius: 0 0 15px 15px;
 }
 
-.navbar a{
-    float:left;
-    width: 50%;
-    background-image: url(./img/purpleCLOUDS.png);
+li{
+    float: left;
+}
+
+li a{
     display: block;
-    opacity: .65;
     text-decoration: none;
     text-align: center;
+    padding: 14px 16px;
+    max-height: 50px;
+    font-size: 1vw;
 }
 
-.navbar a:hover{
+li a:hover{
     opacity: 1.5;
-    color: rgba(74, 58, 88, 0.801);
+    color: rgba(89, 18, 104, 0.801);
+    background-color:rgb(24, 24, 24);
 }
 
-.p{
+.active{
+    background-color: black;
+    color: rgb(141, 82, 168);
+}
+
+.panda{
+    display:flex;
+    justify-content: flex-end;
+    float: right;
+    width: auto;
+    height: 40px;
+    padding-right: 15px;
+
+}
+
+section{
+    position: absolute;
+    margin-left: 25px;
+    border-radius: 9px;
+    top: 50%;
+    display: block;
+    padding: 10px;
+    width: 50%;
     text-align: center;
-    font-size: 25px;
+    transform: translate(0,-50%);
+    background-color: rgba(175, 150, 175, 0.877);
+    background-image: url(./img/Butterfly.gif);
+    box-shadow: 1px 1px 5px #555 inset;
 }
 
-.butterfly{
-   background-position: center;
-   background-repeat: repeat-y;
+h1{
+    font-size: 5vw;
+}
+
+p{
+    padding-top: 8px;
+}
+
+.container{
+    position: relative;
+    float: right;
+    height: auto;
+    
+}
+.photo{
+    margin-top: 85%;
+    margin-left: -25%;
+    right: 17%;
+    top: 0;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
 }
