@@ -53,6 +53,11 @@ var students =
         "lastName": "Blanchett",
         "firstName": "Bob"
     },
+    {
+        "path": "cameron",
+        "lastName": "Muschialli",
+        "firstName": "Cameron"
+    },
 
 
     
