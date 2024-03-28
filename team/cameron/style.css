@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 450px;
-  min-height: 300px;
+  min-height: 380px;
   background:lightskyblue;
   color:navy;
   padding: 20px;
@@ -88,4 +88,10 @@ body .container form a:hover,
 body .container form a:focus{
   background-color: #6495ed;
   color:navy;
+}
+
+.home {
+  position:relative;
+  top: 60px;
+  left: 15px;
 }
